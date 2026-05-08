@@ -8,7 +8,7 @@
 
 ## Features
 
-* Scroll-Driven Frame Animation: Maps scroll progress to video frames for a seamless playback illusion.
+* SSScroll-Driven Frame Animation: Maps scroll progress to video frames for a seamless playback illusion.
 
 * Canvas Rendering: Efficient drawing of frames with aspect-ratio fitting and centering.
 
