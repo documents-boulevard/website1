@@ -154,12 +154,13 @@ const Hero = () => {
     <>
       {/* header */}
       <header className="absolute text-white top-0 left-0 z-30 flex w-full items-center px-[3vw] py-[2vw] text-[1.4vw] font-medium tracking-wide">
-        <div className="text-[1.6vw] ">DevByShat</div>
+        <div className="text-[1.6vw] ">Likas Boulevard</div>
         <nav className="z-100 flex flex-1 items-center justify-end gap-10">
           <ul className="flex gap-9">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>Location</li>
+            <li>Gallery</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
           </ul>
         </nav>
       </header>
@@ -175,13 +176,13 @@ const Hero = () => {
             className="absolute top-1/2 left-1/2 w-full origin-center -translate-x-1/2 -translate-y-1/2 text-center text-white will-change-transform"
           >
             <h1 className="text-[10vw] leading-[105%] font-bold tracking-tight text-white uppercase">
-              Watch Beauty <br /> Unfold
+              likas boulevard<br /> 2026
             </h1>
           </div>
         </div>
       </section>
 
-      <section className="flex h-svh w-full items-center justify-center text-white bg-zinc-900 text-[4vw]">@devbyshat</section>
+      <section className="flex h-svh w-full items-center justify-center text-white bg-zinc-900 text-[4vw]">under-construction</section>
     </>
   )
 };
