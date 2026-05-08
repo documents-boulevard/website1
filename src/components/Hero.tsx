@@ -3,10 +3,10 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
-const FRAME_COUNT = 60
+const FRAME_COUNT = 100
 
 function getCurrentFramePath(idx:number) {
-  return `/images/frames/${(idx + 1).toString().padStart(2, '0')}.webp`
+  return `/images/frames/${(idx + 1).toString().padStart(3, '0')}.webp`
 }
 
 const Hero = () => {
